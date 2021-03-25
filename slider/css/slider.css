@@ -16,7 +16,7 @@ html {
   -webkit-appearance: none;
   background-color: #bdc3c7;
   height: 5px;
-  width: 180px;
+  width: 400px;
   border-radius: 5px;
   outline: none; }
   .slider::-webkit-slider-thumb {
@@ -34,4 +34,4 @@ html {
     cursor: pointer;
     border-radius: 50%; }
 
-/*# sourceMappingURL=maps/styles.css.map */
+/*# sourceMappingURL=maps/slider.css.map */

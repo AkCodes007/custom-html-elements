@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Sliders</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/slider-fill.css" />
+    <style>
+      .spacer {
+        margin: 50px;
+      }
+    </style>
   </head>
   <body>
     <div class="cotainer">
-      <input type="range" min="0" max="100" id="" class="slider" />
+      <input type="range" min="0" max="100" class="slider" />
+      <div class="spacer"></div>
+      <input type="range" min="0" max="100" class="slider-fill" value="0" />
     </div>
   </body>
+  <script src="js/slider-fill.js" defer></script>
 </html>

@@ -1,0 +1,28 @@
+.slider-fill {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  height: 5px;
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  // Firefox
+  &::-moz-range-thumb {
+    -webkit-appearance: none;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+}
